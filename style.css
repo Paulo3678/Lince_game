@@ -1,0 +1,31 @@
+.lince-card {
+    cursor: pointer;
+}
+
+
+.lince-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+
+
+
+#imagem-sorteada {
+    width: 100%;
+}
+
+#pontuacao {
+    font-size: 30px;
+}
+
+.noclick {
+    pointer-events: none;
+}
+
+#parar-jogo.noclick {
+    opacity: .7;
+}
